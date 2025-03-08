@@ -1,0 +1,10 @@
+INVOICE/BILL RECEIPT
+====================
+Date: 22-11-2024 22:36:07
+
+burger	1	75.0
+
+--------------------
+Total Price: 		75.0
+====================
+Thank you for your order!
