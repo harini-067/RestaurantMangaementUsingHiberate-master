@@ -90,7 +90,7 @@ public class Login extends javax.swing.JFrame{
     private boolean isValidLogin(String email, String password, int id) {
         Admin obj1 = new Admin();
 
-        Configuration con = new Configuration().configure("hibernate.cfg.xml").addAnnotatedClass(Admin.class);
+        Configuration con = new Configuration().configure().addAnnotatedClass(Admin.class);
         SessionFactory sf = con.buildSessionFactory();
         Session ses = sf.openSession();
         Transaction ts = ses.beginTransaction();

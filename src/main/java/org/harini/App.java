@@ -2,6 +2,7 @@ package org.harini;
 
 
 import javax.swing.*;
+import java.awt.*;
 
 /**
  * Hello world!
@@ -9,7 +10,10 @@ import javax.swing.*;
  */
 public class App extends JFrame
 {
-    public static void main( String[] args )
+    public App() throws HeadlessException {
+    }
+
+    public static void main(String[] args )
     {
        Login log = new Login();
        log.getDefaultCloseOperation();
