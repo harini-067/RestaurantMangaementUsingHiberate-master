@@ -12,4 +12,4 @@ ENV DB_USER=root
 ENV DB_PASS=harini
 
 # Step 5: Run the JAR
-CMD ["java", "-jar", "app.jar"]
+CMD ["java", "-jar", "App.jar"]
